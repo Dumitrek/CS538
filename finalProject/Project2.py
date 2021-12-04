@@ -35,6 +35,8 @@ def main():
     print('Ciphertext: \n' +ciphertext)
     plaintext = decryption(ciphertext, key)
     print("Plaintext: \n" +plaintext)
+    key = ''
+    print ('Key: ' +key)
     exit (0)
 
 if __name__ == '__main__':
